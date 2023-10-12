@@ -1,0 +1,42 @@
+.ProductTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .ProductTable th,
+  .ProductTable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .ProductTable th {
+    background-color: #333;
+    color: white;
+  }
+  
+  .ProductTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .ProductTable tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  .ProductTable img {
+    max-width: 100px;
+  }
+  
+  .ProductTable button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .ProductTable button:hover {
+    background-color: #0056b3;
+  }
+  

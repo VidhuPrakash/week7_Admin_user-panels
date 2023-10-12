@@ -1,0 +1,15 @@
+.Bkd-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .Bkd-table th, .Bkd-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .Bkd-table th {
+    background-color: #f2f2f2;
+  }
+  

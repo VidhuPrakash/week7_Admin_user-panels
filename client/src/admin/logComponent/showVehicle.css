@@ -1,0 +1,70 @@
+/* Stylish Data Display Page */
+.head {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.Thead {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Vehicle-Box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.Vehicle-Box h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.Vehicle-Box td {
+  padding: 10px;
+  text-align: center;
+}
+
+.Vehicle-Box img {
+  width: 100px; /* Adjust as needed */
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Vehicle-Box input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Vehicle-Box button {
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Vehicle-Box button:hover {
+  background-color: #0056b3;
+}
+
+  .Thead td{
+    padding-right: 130px;
+    font-weight: bold;
+    
+  }

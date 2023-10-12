@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    
+}
+/* Header Container */
+.f {
+  
+    text-align: center;
+    padding: 20px;
+    background-color: #ff0062;
+    color: #fff;
+  }
+  
+  /* Heading Styles */
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button Hover Effect */
+  button:hover {
+    background-color: #00439a;
+  }
+  

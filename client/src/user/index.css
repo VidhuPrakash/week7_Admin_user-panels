@@ -1,0 +1,87 @@
+/* Styles for the outer container */
+.index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+/* Styles for the user login/registration form */
+.index h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.index form {
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.index form input[type="text"],
+.index form input[type="email"],
+.index form input[type="tel"],
+.index form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.index form button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.index form button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for the UserNav component (adjust as needed) */
+.index .nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+/* Styles for the product table (adjust as needed) */
+.index .ProductTable {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.index .ProductTable table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.index .ProductTable th,
+.index .ProductTable td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.index .ProductTable th {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+.index .ProductTable td img {
+  max-width: 100px;
+}

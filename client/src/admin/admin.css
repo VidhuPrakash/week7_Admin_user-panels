@@ -1,0 +1,64 @@
+.log {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .in-user,
+  .in-pass {
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .in-btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .in-btn:hover {
+    background-color: #0056b3;
+  }
+  .logged {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .logged h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .logged button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logged button:hover {
+    background-color: #0056b3;
+  }
+  
+  .logged .form-control {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .logged .form-group {
+    margin-bottom: 20px;
+  }
+  

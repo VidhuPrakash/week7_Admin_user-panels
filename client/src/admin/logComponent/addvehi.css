@@ -1,0 +1,73 @@
+/* Form Container */
+.formm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Form Inputs */
+  form input[type="text"],
+  form input[type="number"],
+  form select,
+  form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  /* Form File Input Label */
+  form .file-label {
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  /* Form File Input Label Hover */
+  form .file-label:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Submit Button */
+  form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Submit Button Hover */
+  form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  /* Error Message Styles */
+.error {
+    color: #ff0000; /* Red text color */
+    background-color: #ffe0e0; /* Light red background color */
+    padding: 10px;
+    border: 1px solid #ff0000; /* Red border */
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
